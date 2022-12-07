@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niel's Personal Profile</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
     <nav id="menu">
-        <div id="menu-items" onmouseover="parallax()">
-            <a href="" class="menu-item">Home</a>
-            <a href="" class="menu-item">About Me</a>
-            <a href="" class="menu-item">G</a>
-            <a href="" class="menu-item">dads</a>
+        <div id="menu-items">
+            <a href="" class="menu-item" data-index="0" onmouseover="parallax(this)">home</a>
+            <a href="" class="menu-item" data-index="1" onmouseover="parallax(this)">about me</a>
+            <a href="" class="menu-item" data-index="2" onmouseover="parallax(this)">gallery</a>
+            <a href="" class="menu-item" data-index="3" onmouseover="parallax(this)">dads</a>
         </div>
         <div id="menu-background-pattern"></div>
         <div id="menu-background-image"></div>
