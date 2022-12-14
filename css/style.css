@@ -24,7 +24,7 @@ body {
 }
 
 #menu-items {
-    margin-left: clamp(4rem, 20vw, 48rem);
+    margin-left: clamp(4rem, 15vw, 48rem);
     position: relative;
     z-index: 2;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 #menu-background-image {
-    background-image: url("../images/DSC_0996.JPG");background-position: center 40%;
+    background-image: url("https://drive.google.com/uc?id=146l6EfY-lzzM-fCWA4OXYBZX0IHjwYQU");background-position: center 40%;
     background-size: 110vmax;
     height: 100%;
     left: 0px;
